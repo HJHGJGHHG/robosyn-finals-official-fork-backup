@@ -1,0 +1,96 @@
+{
+  "host": "192.168.10.69",
+  "source": "/data2/hjl/robo/final_submissions/parapred_sample_loading_final_20261115",
+  "verified_files": {
+    "./CHECKPOINT.sha256": "9e2339ab28c410d15bc313bca7e43a158fc7d3b825e69c772ed337700d1e1b1d",
+    "./README.md": "4334672f9d6f09248c4ccb6773d530160e170db05bd379361331d10ee944e16b",
+    "./checkpoint/best.pt": "fa2240b33ac7517021db8ce97972b8d339cd64e4f403da71637373bbe0398814",
+    "./code/parapred_sample_loading/__init__.py": "ee0cd77fb2736ac5fa1201476b04360b34b6229d44cb459cc17059378af04e14",
+    "./code/parapred_sample_loading/assets/CobotMagicNoGripper.urdf": "524b8096d001e14291722155adcef92b8d856f60d017704a102382ecdfe9a146",
+    "./code/parapred_sample_loading/assets/CobotMagicWithGripperV100.urdf": "4c638cdd5ebf3652b9c95f6d7282238835815bfdf486f2270c58a3ccd492e485",
+    "./code/parapred_sample_loading/base_model.py": "4081ebfc9375ba2a85fe21416ae02fa92ee5df1993211df8257e114c5cd322c8",
+    "./code/parapred_sample_loading/calibrated_planner.py": "71a60d9b58d0674309e18c4f9310126d546a8869a93f30013a2bf8c4add6ffd0",
+    "./code/parapred_sample_loading/deploy_config.json": "fd5a721e0ff35608b2984d5c851d333fc50e654f73e791860648b1b1f25dc4c3",
+    "./code/parapred_sample_loading/deploy_policy.py": "b9304b412c440a9deb71cbabfd5aef8bf972d9bdb2e75b3a965b9dc5c22e47bc",
+    "./code/parapred_sample_loading/deploy_policy.yml": "08b23d7ae702a95c7d0405ee3fb0f8deef6df8c9ac21c77c76a441d1cfc87901",
+    "./code/parapred_sample_loading/diagnostics.py": "8641010aa29fda695d092187825f046028aeb90aab4b8bb090f8e3ef42ae66a6",
+    "./code/parapred_sample_loading/geometry.py": "b98e52bcdede1787de7fc4840b53ccc2d1cfd1b3fa6362bacbc959712b34d935",
+    "./code/parapred_sample_loading/geometry_config.json": "1a3fdfe4f6b458c307aed54356729b0ffce27161b0babdb7102eae66f0e14c7e",
+    "./code/parapred_sample_loading/initial_observation.py": "95fda5d03db9d429bd9124d714af4a74d03504c272bdcb863a7c3454965cf1d2",
+    "./code/parapred_sample_loading/insertion_geometry.py": "2f859edd6acfa5fb1ced463f5254987f2f95446c429a4ee34aeecf607de57771",
+    "./code/parapred_sample_loading/insertion_motion.py": "73556ea817cd954a8a88bea8d9de0f2b0170ab3520d6262d0fd4c7903b4c7b91",
+    "./code/parapred_sample_loading/kinematics.py": "d10b06387498fb6653bd7e4b9596a5805d335f2065bf18dafe7736afbcb7422f",
+    "./code/parapred_sample_loading/model.py": "4081ebfc9375ba2a85fe21416ae02fa92ee5df1993211df8257e114c5cd322c8",
+    "./code/parapred_sample_loading/model_v4.py": "18ef094a370abf457750eb08c553cdb41ab8d3f51c729259428ad827224ff578",
+    "./code/parapred_sample_loading/nominal_clearance.py": "d9e9391803cb86da3036bc53a95f02d0616854f657f5d94b3430623956127b3c",
+    "./code/parapred_sample_loading/planner.py": "6e54ae7d423b4d63a274e3fba2e50f3c8508d9c5ab1ec98a0454f0a6f6ac2d95",
+    "./code/parapred_sample_loading/variants.json": "737cbbb0cb575cacf7a8cc84ae11f0ff78568bef0e95da2293bea4ec80303846",
+    "./evaluation/TEST_RESULTS.json": "d21bcd3222884f92f838fc443556e46e89614b944cf3900c8feffd01b5166aee",
+    "./evaluation/deploy_config.json": "f65c39f9d476be5920d8abe5ac31defe40668699a57cfcb93b8dbb1c55fb7409"
+  },
+  "checkpoint_sha256": "fa2240b33ac7517021db8ce97972b8d339cd64e4f403da71637373bbe0398814",
+  "policy": "sample_loading",
+  "variant": "V57/F1/C0",
+  "unchanged_source_files": [
+    "calibrated_planner.py",
+    "model.py",
+    "diagnostics.py",
+    "insertion_geometry.py",
+    "base_model.py",
+    "geometry.py",
+    "initial_observation.py",
+    "__init__.py",
+    "model_v4.py",
+    "planner.py",
+    "insertion_motion.py",
+    "kinematics.py",
+    "geometry_config.json"
+  ],
+  "changed_source_files": [
+    {
+      "file": "deploy_policy.py",
+      "source_sha256": "b9304b412c440a9deb71cbabfd5aef8bf972d9bdb2e75b3a965b9dc5c22e47bc",
+      "submission_sha256": "ccb7ea0c676969307f2f244484c26cdf855af44cb8c46c16a9e592a23a4420b8"
+    },
+    {
+      "file": "deploy_policy.yml",
+      "source_sha256": "08b23d7ae702a95c7d0405ee3fb0f8deef6df8c9ac21c77c76a441d1cfc87901",
+      "submission_sha256": "0481c7c60cecdef2bdb0aa5021585288247fe2e6f908131d6fbde435064d33de"
+    },
+    {
+      "file": "assets/CobotMagicWithGripperV100.urdf",
+      "source_sha256": "4c638cdd5ebf3652b9c95f6d7282238835815bfdf486f2270c58a3ccd492e485",
+      "submission_sha256": "7bf80727a9f82707373bb0d3b515ceb020b82b6cffb10ba0d47a91539bddad51"
+    },
+    {
+      "file": "assets/CobotMagicNoGripper.urdf",
+      "source_sha256": "524b8096d001e14291722155adcef92b8d856f60d017704a102382ecdfe9a146",
+      "submission_sha256": "212625e6b3fedd39211b0efd4e01dbec1a3261b259a831595d8604af3e6b4ab6"
+    }
+  ],
+  "omitted_source_files": [
+    "deploy_config.json",
+    "deploy_policy.yml",
+    "variants.json",
+    "nominal_clearance.py"
+  ],
+  "omission_reason": "Replace source launch configs with portable YAML; nominal_clearance is not imported by the deployed nominal_v1 planner and carries unused external mesh paths.",
+  "official_urdf_revision": "45d9b9c4c78c66ef340a055697f3ad833ce567f4",
+  "deployment": {
+    "max_steps": 1000,
+    "transport_steps": 40,
+    "settle_steps": 25,
+    "control_variant": "C0",
+    "template": "nominal_v1",
+    "right_repair_enabled": true,
+    "j5_limits_rad": [
+      -1.3,
+      1.3
+    ]
+  },
+  "physical_re_evaluation": false,
+  "layout_revision_20261116": {
+    "description": "Task-local eval entrypoint, evaluation adapter and requirements; original source registration fields retained as historical evidence.",
+    "current_manifest": "MANIFEST_SHA256.json"
+  }
+}

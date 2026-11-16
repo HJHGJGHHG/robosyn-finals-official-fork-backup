@@ -1,0 +1,31 @@
+policy_name: drawer_open_place
+task_name: drawer_open_place
+setting: random
+model_name: drawer_7e63642_epoch19_20261115
+seed: 161803
+max_episodes: 20
+max_steps: 1000
+headless: true
+pytorch_device: cuda:0
+action_device: cpu
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys: [cam_high, cam_right_wrist, cam_left_wrist]
+eval_video_fps: 25
+eval_reset_sync_steps: 100
+eval_expert_check: false
+checkpoint_path: checkpoint/best.pt
+checkpoint_sha256: cbc8b0fe6c523eb8a4091d761c4f2525ef90367581da7b2ea7ecd039943b00b2
+asset_source: geometry
+drawer_asset: geometry/SlidingBoxDrawer
+pull_distance_m: 0.185
+timing: compact
+close_enabled: true
+close_epsilon_m: 0.007
+p5_mode: p6
+p6_tilts: [-30, -40, -50, -60, -70, -80]
+p6_yaws: [0, -15, 15]
+p6_sides: [0, -0.02]
+p6_release_gap_m: 0.025
+p6_forward_m: 0
+p6_release_jaw_m: 0.03

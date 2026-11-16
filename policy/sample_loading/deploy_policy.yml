@@ -1,0 +1,24 @@
+policy_name: sample_loading
+task_name: sample_loading
+setting: random
+model_name: sample_loading_v57_f1_c0
+seed: 161803
+max_episodes: 20
+max_steps: 1000
+headless: true
+pytorch_device: cuda:0
+action_device: cpu
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys: [cam_high, cam_right_wrist, cam_left_wrist]
+eval_video_fps: 25
+eval_reset_sync_steps: 100
+eval_expert_check: false
+checkpoint_path: checkpoint/best.pt
+checkpoint_sha256: fa2240b33ac7517021db8ce97972b8d339cd64e4f403da71637373bbe0398814
+geometry_path: geometry_config.json
+template: nominal_v1
+settle_steps: 25
+control_variant: C0
+transport_steps: 40
+right_repair_enabled: true

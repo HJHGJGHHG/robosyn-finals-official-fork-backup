@@ -1,0 +1,46 @@
+{
+  "handle_basket": {
+    "milk_grasp_pose_object": [
+      [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.02
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.03
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    ],
+    "milk_milk_grasp_offset": 0.025,
+    "basket_basket_grasp_offset": 0.015
+  },
+  "mixer_operating": {
+    "beaker_grasp_offset_intrinsic_z": 0.018,
+    "beaker_grasp_offset_intrinsic_rotation_y": -20,
+    "beaker_mixer_place_offset_extrinsic_z": 0.12,
+    "beaker_mixer_place_offset_intrinsic_z": -0.03,
+    "beaker_mixer_place_offset_intrinsic_x": 0.005,
+    "beaker_mixer_button_offset_x": -0.1176,
+    "beaker_mixer_button_offset_y": -0.0,
+    "beaker_mixer_button_offset_z": 0.056,
+    "beaker_mixer_button_rotation_x": -35,
+    "beaker_mixer_button_rotation_y": -25
+  }
+}

@@ -1,0 +1,6 @@
+# Install into the official RoboSynChallenge/EmbodiChain environment.
+numpy>=1.26,<3
+PyYAML>=6,<7
+torch>=2.7,<2.11
+torchvision>=0.22,<0.26
+scipy>=1.11,<2

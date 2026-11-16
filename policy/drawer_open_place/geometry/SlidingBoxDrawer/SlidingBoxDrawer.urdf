@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+
+<robot name="SlidingBoxDrawer">
+  <link name="outer_box">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="OuterBox.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="OuterBoxACD.obj"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.5"/>
+      <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+      <inertia ixx="0.00443333156" ixy="0.0" ixz="0.0" iyy="0.00443333156" iyz="0.0" izz="0.0072"/>
+    </inertial>
+  </link>
+  <link name="inner_box">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="InnerBox.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="InnerBoxACD.obj"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.2"/>
+      <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+      <inertia ixx="0.00443333156" ixy="0.0" ixz="0.0" iyy="0.00443333156" iyz="0.0" izz="0.0072"/>
+    </inertial>
+  </link>
+  <link name="handle_xpos" />
+
+  <joint name="slide_rails" type="prismatic">
+    <origin rpy="0 0 0" xyz="0.0 0 0.0"/>
+    <parent link="outer_box"/>
+    <child link="inner_box"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="25.0" acceleration="5.0" lower="0.0" upper="0.2" velocity="1.0"/>
+  </joint>
+
+  <joint name="fixed_handle" type="fixed">
+    <origin rpy="0 -1.5707963267 0" xyz="0.105 0.0 0.1"/>
+    <parent link="inner_box"/>
+    <child link="handle_xpos"/>
+    <axis xyz="1 0 0"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,19 @@
+policy_name: item_assembly
+task_name: item_assembly
+setting: random
+model_name: item_assembly_final_v3
+seed: 161803
+max_episodes: 20
+max_steps: 1000
+headless: true
+pytorch_device: cuda:0
+filter_dataset_saving: true
+eval_video_log: true
+eval_video_obs_keys: [cam_high, cam_right_wrist, cam_left_wrist]
+eval_video_fps: 25
+eval_reset_sync_steps: 100
+eval_expert_check: false
+checkpoint_path: checkpoint/best.pt
+checkpoint_sha256: 0063eff83785a462639a313b52a3b27c858b48258867c32bc59eba172880e22e
+parapred_step: 1
+parapred_ik_attempts: 5

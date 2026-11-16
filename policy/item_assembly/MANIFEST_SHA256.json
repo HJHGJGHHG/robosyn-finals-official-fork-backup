@@ -1,0 +1,15 @@
+{
+  "README.md": "d2eb0cda8e2c6d7e803fc4623f3976edecacbe95414e7623699bff63551ed876",
+  "__init__.py": "ee0cd77fb2736ac5fa1201476b04360b34b6229d44cb459cc17059378af04e14",
+  "assets/CobotMagicWithGripperV100.urdf": "7bf80727a9f82707373bb0d3b515ceb020b82b6cffb10ba0d47a91539bddad51",
+  "assets/planning_constants.json": "31a257f13d0352b00062f77666094a1dca0299454d958785d5f34b0df9671ec3",
+  "checkpoint/best.pt": "0063eff83785a462639a313b52a3b27c858b48258867c32bc59eba172880e22e",
+  "deploy_policy.py": "922ea832a46960b27b196e548b65108e603bf7b14115e9acaed8f22bd8976590",
+  "deploy_policy.yml": "70318c87d110b3b470f382f1994af72cc1999e01d4d8ab73367069da8ebbac93",
+  "eval.sh": "a0d8dd735c5f54bd85551b66d94d81d2c6e801162f0c6ffacaa272068393d732",
+  "model.py": "cdea32b611cb547a4d7d7af2edb5cbf8329ba55db7946b375d5fce1f55c02c9e",
+  "planning.py": "b1558f6b7c067b6df8d2a8d5eafe72ba98c0bda9c022bebd740e592062502858",
+  "requirements.txt": "4b4f05692e5595442451a37edffb5155b56568b0c3d0fa7222a17d113f4c7544",
+  "submission_eval.py": "cd7dc5fb0cbd18438e34f14ed9a0d1c5fd9e017ab460f67fc00b646e43c519e4",
+  "submission_runtime.py": "93fd0b433a89507cb6630061611bdc49509218ab6163aaa05e58845af5a5070c"
+}
