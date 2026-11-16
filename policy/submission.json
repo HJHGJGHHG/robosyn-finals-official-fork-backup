@@ -8,7 +8,7 @@
       "policy_directory": "policy/click_bell",
       "hf_repo_id": "HJHGJGHHG/robosyn-click_bell",
       "hf_url": "https://huggingface.co/HJHGJGHHG/robosyn-click_bell",
-      "hf_revision": null,
+      "hf_revision": "72ae9ec7760fc7388f12cc3cb5fb8426d59d1097",
       "hf_subdirectory": ".",
       "hf_filename": "best.pt",
       "checkpoint_path": "policy/click_bell/checkpoint/best.pt",
@@ -47,8 +47,8 @@
         "parapred_step": 1,
         "parapred_ik_attempts": 5
       },
-      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-click_bell",
-      "checkpoint_status": "pending_publication"
+      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-click_bell/tree/72ae9ec7760fc7388f12cc3cb5fb8426d59d1097",
+      "checkpoint_status": "published"
     },
     {
       "task_name": "drawer_open_place",
@@ -128,7 +128,7 @@
       "policy_directory": "policy/handle_basket",
       "hf_repo_id": "HJHGJGHHG/robosyn-handle_basket",
       "hf_url": "https://huggingface.co/HJHGJGHHG/robosyn-handle_basket",
-      "hf_revision": null,
+      "hf_revision": "34739513df28c2a0acb82bdd0a13d5ec36a6fb7a",
       "hf_subdirectory": ".",
       "hf_filename": "best.pt",
       "checkpoint_path": "policy/handle_basket/checkpoint/best.pt",
@@ -167,15 +167,15 @@
         "parapred_step": 1,
         "parapred_ik_attempts": 5
       },
-      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-handle_basket",
-      "checkpoint_status": "pending_publication"
+      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-handle_basket/tree/34739513df28c2a0acb82bdd0a13d5ec36a6fb7a",
+      "checkpoint_status": "published"
     },
     {
       "task_name": "item_assembly",
       "policy_directory": "policy/item_assembly",
       "hf_repo_id": "HJHGJGHHG/robosyn-item_assembly",
       "hf_url": "https://huggingface.co/HJHGJGHHG/robosyn-item_assembly",
-      "hf_revision": null,
+      "hf_revision": "6c3854f865ba577cd94b175321e7b02c538f2374",
       "hf_subdirectory": ".",
       "hf_filename": "best.pt",
       "checkpoint_path": "policy/item_assembly/checkpoint/best.pt",
@@ -214,15 +214,15 @@
         "parapred_step": 1,
         "parapred_ik_attempts": 5
       },
-      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-item_assembly",
-      "checkpoint_status": "pending_publication"
+      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-item_assembly/tree/6c3854f865ba577cd94b175321e7b02c538f2374",
+      "checkpoint_status": "published"
     },
     {
       "task_name": "items_handover",
       "policy_directory": "policy/items_handover",
       "hf_repo_id": "HJHGJGHHG/robosyn-items_handover",
       "hf_url": "https://huggingface.co/HJHGJGHHG/robosyn-items_handover",
-      "hf_revision": null,
+      "hf_revision": "e5b7657f234a0a16c6c3da2c066276dd7d137c32",
       "hf_subdirectory": ".",
       "hf_filename": "best.pt",
       "checkpoint_path": "policy/items_handover/checkpoint/best.pt",
@@ -261,15 +261,15 @@
         "parapred_step": 1,
         "parapred_ik_attempts": 5
       },
-      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-items_handover",
-      "checkpoint_status": "pending_publication"
+      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-items_handover/tree/e5b7657f234a0a16c6c3da2c066276dd7d137c32",
+      "checkpoint_status": "published"
     },
     {
       "task_name": "manipulate_pipette",
       "policy_directory": "policy/manipulate_pipette",
       "hf_repo_id": "HJHGJGHHG/robosyn-manipulate_pipette",
       "hf_url": "https://huggingface.co/HJHGJGHHG/robosyn-manipulate_pipette",
-      "hf_revision": null,
+      "hf_revision": "87c55a676232223271a68f694db04a4bd408a8fb",
       "hf_subdirectory": ".",
       "hf_filename": "best.pt",
       "checkpoint_path": "policy/manipulate_pipette/checkpoint/best.pt",
@@ -308,15 +308,15 @@
         "parapred_step": 1,
         "parapred_ik_attempts": 5
       },
-      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-manipulate_pipette",
-      "checkpoint_status": "pending_publication"
+      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-manipulate_pipette/tree/87c55a676232223271a68f694db04a4bd408a8fb",
+      "checkpoint_status": "published"
     },
     {
       "task_name": "mixer_operating",
       "policy_directory": "policy/mixer_operating",
       "hf_repo_id": "HJHGJGHHG/robosyn-mixer_operating",
       "hf_url": "https://huggingface.co/HJHGJGHHG/robosyn-mixer_operating",
-      "hf_revision": null,
+      "hf_revision": "0ed9608b56334bbe52ef4155397fc5b0d8231f1b",
       "hf_subdirectory": ".",
       "hf_filename": "best.pt",
       "checkpoint_path": "policy/mixer_operating/checkpoint/best.pt",
@@ -355,15 +355,15 @@
         "parapred_step": 1,
         "parapred_ik_attempts": 5
       },
-      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-mixer_operating",
-      "checkpoint_status": "pending_publication"
+      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-mixer_operating/tree/0ed9608b56334bbe52ef4155397fc5b0d8231f1b",
+      "checkpoint_status": "published"
     },
     {
       "task_name": "sample_loading",
       "policy_directory": "policy/sample_loading",
       "hf_repo_id": "HJHGJGHHG/robosyn-sample_loading",
       "hf_url": "https://huggingface.co/HJHGJGHHG/robosyn-sample_loading",
-      "hf_revision": null,
+      "hf_revision": "db00bc37e2461a746a2d32910af685c6d64df422",
       "hf_subdirectory": ".",
       "hf_filename": "best.pt",
       "checkpoint_path": "policy/sample_loading/checkpoint/best.pt",
@@ -407,15 +407,15 @@
         "transport_steps": 40,
         "right_repair_enabled": true
       },
-      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-sample_loading",
-      "checkpoint_status": "pending_publication"
+      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-sample_loading/tree/db00bc37e2461a746a2d32910af685c6d64df422",
+      "checkpoint_status": "published"
     },
     {
       "task_name": "table_rearrangement",
       "policy_directory": "policy/table_rearrangement",
       "hf_repo_id": "HJHGJGHHG/robosyn-table_rearrangement",
       "hf_url": "https://huggingface.co/HJHGJGHHG/robosyn-table_rearrangement",
-      "hf_revision": null,
+      "hf_revision": "58406ffecbcafbb703ec391759ed7c4f036cb69d",
       "hf_subdirectory": ".",
       "hf_filename": "best.pt",
       "checkpoint_path": "policy/table_rearrangement/checkpoint/best.pt",
@@ -454,15 +454,15 @@
         "parapred_step": 1,
         "parapred_ik_attempts": 5
       },
-      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-table_rearrangement",
-      "checkpoint_status": "pending_publication"
+      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-table_rearrangement/tree/58406ffecbcafbb703ec391759ed7c4f036cb69d",
+      "checkpoint_status": "published"
     },
     {
       "task_name": "water_pouring",
       "policy_directory": "policy/water_pouring",
       "hf_repo_id": "HJHGJGHHG/robosyn-water_pouring",
       "hf_url": "https://huggingface.co/HJHGJGHHG/robosyn-water_pouring",
-      "hf_revision": null,
+      "hf_revision": "076b4e6d288398e08bc94b3c87a46023172eee02",
       "hf_subdirectory": ".",
       "hf_filename": "best.pt",
       "checkpoint_path": "policy/water_pouring/checkpoint/best.pt",
@@ -501,8 +501,8 @@
         "parapred_step": 1,
         "parapred_ik_attempts": 5
       },
-      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-water_pouring",
-      "checkpoint_status": "pending_publication"
+      "hf_revision_url": "https://huggingface.co/HJHGJGHHG/robosyn-water_pouring/tree/076b4e6d288398e08bc94b3c87a46023172eee02",
+      "checkpoint_status": "published"
     }
   ]
 }
